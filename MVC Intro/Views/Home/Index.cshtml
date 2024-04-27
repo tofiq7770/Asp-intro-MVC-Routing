@@ -1,0 +1,82 @@
+﻿@model HomeVM
+
+<div class="mt-5 container">
+
+    <h2>Book</h2>
+                <a asp-controller="Book" asp-action="Index">Click Me</a>
+    <div>
+        <table class="mt-5">
+            <tr>
+                <th>Name</th>
+            </tr>
+            @foreach (var item in Model.BookVMs)
+            {
+
+                <tr>
+                    <td>@item.Name</td>
+                </tr>
+            }
+        </table>
+    </div>
+</div>
+
+
+
+<div class="mt-5 container">
+    <h2>Employee</h2>
+                <a asp-controller="Employee" asp-action="Index">Click Me</a>
+    <div>
+        <table class="mt-5">
+            <tr>
+                <th>Name</th>
+                <th>Surname</th>
+                <th>Salary</th>
+                <th>Age</th>
+            </tr>
+
+            @foreach (var item in Model.EmployeeVMs)
+            {
+                <tr>
+                    <td>@item.Name</td>
+                    <td>@item.Surname</td>
+                    <td>@item.Age</td>
+                    <td>@item.Salary</td>
+                </tr>
+            }
+        </table>
+    </div>
+</div>
+
+
+
+<div class="mt-5 container">
+    <h2>User</h2>
+                <a asp-controller="User" asp-action="Index">Click Me</a>
+
+    <div>
+        <table class="mt-5">
+            <tr>
+                <th>FullName</th>
+                <th>Address</th>
+                <th>Email</th>
+                <th>Age</th>
+            </tr>
+
+
+
+            @foreach (var item in Model.UserVMs)
+            {
+                <tr>
+                    <td>@item.FullName</td>
+                    <td>@item.Address</td>
+                    <td>@item.Email</td>
+                    <td>@item.Age</td>
+                </tr>
+            }
+        </table>
+    </div>
+</div>
+
+<br />
+<br />
+<br />

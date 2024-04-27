@@ -21,3 +21,4 @@ C:\Users\tofiq\Desktop\MVC Intro\MVC Intro\obj\Debug\net6.0\MVC Intro.genruntime
 C:\Users\tofiq\Desktop\MVC Intro\MVC Intro\obj\Debug\net6.0\ref\MVC Intro.dll
 C:\Users\tofiq\Desktop\MVC Intro\MVC Intro\obj\Debug\net6.0\MVC Intro.RazorAssemblyInfo.cache
 C:\Users\tofiq\Desktop\MVC Intro\MVC Intro\obj\Debug\net6.0\MVC Intro.RazorAssemblyInfo.cs
+C:\Users\tofiq\Desktop\MVC Intro\MVC Intro\bin\Debug\net6.0\MVC Intro.staticwebassets.runtime.json

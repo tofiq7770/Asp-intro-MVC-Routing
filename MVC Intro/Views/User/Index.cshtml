@@ -1,5 +1,26 @@
-﻿@*
-    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
-*@
-@{
-}
+﻿@model List<User> 
+<div class="mt-5 container">
+    <h2>User</h2>
+                    <a asp-controller="Home" asp-action="Index">Click Me</a>
+
+    <div>
+        <table class="mt-5">
+            <tr>
+                <th>FullName</th>
+                <th>Address</th>
+                <th>Email</th>
+                <th>Age</th>
+            </tr>
+
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <td>@item.FullName</td>
+                    <td>@item.Address</td>
+                    <td>@item.Email</td>
+                    <td>@item.Age</td>
+                </tr>
+            }
+        </table>
+    </div>
+</div>

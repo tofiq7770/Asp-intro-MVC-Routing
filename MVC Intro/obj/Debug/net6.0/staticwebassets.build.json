@@ -1,11 +1,37 @@
 {
   "Version": 1,
-  "Hash": "OHNlMAMi5XRtSBQItEU0kC3gxWCPmR9pHsPLy+rBOl0=",
+  "Hash": "xd3eQuh9Txumv+PsL02w8CKfIATnwGjPEJRDbGHr718=",
   "Source": "MVC Intro",
   "BasePath": "_content/MVC Intro",
   "Mode": "Default",
   "ManifestType": "Build",
   "ReferencedProjectsConfiguration": [],
-  "DiscoveryPatterns": [],
-  "Assets": []
+  "DiscoveryPatterns": [
+    {
+      "Name": "MVC Intro\\wwwroot",
+      "Source": "MVC Intro",
+      "ContentRoot": "C:\\Users\\tofiq\\Desktop\\MVC Intro\\MVC Intro\\wwwroot\\",
+      "BasePath": "_content/MVC Intro",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "C:\\Users\\tofiq\\Desktop\\MVC Intro\\MVC Intro\\wwwroot\\assets\\style.css",
+      "SourceId": "MVC Intro",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\tofiq\\Desktop\\MVC Intro\\MVC Intro\\wwwroot\\",
+      "BasePath": "_content/MVC Intro",
+      "RelativePath": "assets/style.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\assets\\style.css"
+    }
+  ]
 }

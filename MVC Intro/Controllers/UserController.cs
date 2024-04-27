@@ -5,6 +5,7 @@ namespace Asp_intro__MVC_Routing.Controllers
 {
     public class UserController : Controller
     {
+        //Esas VM ile home da cagirdim
         public IActionResult Index()
         {
             var users = GetUsers();
